@@ -1,0 +1,50 @@
+body{
+	max-width: 1280px;
+	margin: 0 auto;
+	font-family: Arial;
+}
+.boton{
+	background-color: skyblue;
+	border:none;
+	padding: 10px 40px;
+	border-radius: 5px;
+	font-size: 18px;
+	display: inline-block;
+	
+}
+.boton:hover{
+	opacity: 0.9;
+}
+
+h2{
+	font-weight: 300;
+}
+#mensajecorrecto{
+	font-weight: 300;
+	font-size: 15px;
+	color: green;
+}
+#errorform{
+	font-weight: 300;
+	font-size: 15px;
+	color: red;
+}
+#successform{
+	font-weight: 300;
+	font-size: 15px;
+	color: green;
+}
+
+input{
+	height: 41px;
+	min-width: 250px;
+	padding: 0 15px;
+	margin: 15px 0;
+	border-radius: 5px;
+	border:1px solid gray;
+	display: block;
+}
+.section1{
+	text-align: left;
+	padding: 40px 10% ;
+}

@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+	<title>Validando form</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<section class="section1">
+		<h2 id="prueba">Escriba sus datos</h2>
+		<input type="text" id="nombre" placeholder="Nombre">
+		<input type="text" id="apellidos" placeholder="Apellidos">
+		<input type="tel"  id="telefono" placeholder="Telefono" maxlength="9" title="El celular debe ser de 9 digitos">	
+		<input type="email" id="mail" placeholder="Email">
+		<!-- Conseguir data-site-key en https://www.google.com/recaptcha/admin
+		<div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"></div>
+		<script src='https://www.google.com/recaptcha/api.js?hl=es'></script> -->
+		<input type="submit" value="Enviar" class="boton" onclick="validar();">
+
+		<h3 id="errorform"></h3>
+		<h3 id="successform"></h3>
+	</section>
+	<script type="text/javascript" src="js/valida.js"></script>
+</body>
+</html>
